@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculater</title>
+    <link rel="stylesheet" href="css/mystyle.css" />
+    <link rel="icon" href="image/bmi.png" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <input
+          aria-label="weight"
+          class="weight_input range_input"
+          type="range"
+          value="20"
+          min="20"
+          max="200"
+        />
+        <span class="weight_value input_value">20 kg</span>
+      </div>
+      <div class="row">
+        <input
+          aria-label="weight"
+          class="height_input range_input"
+          type="range"
+          value="100"
+          min="100"
+          max="250"
+        />
+        <span class="height_value input_value">100 cm</span>
+      </div>
+      <div class="show_BMI">
+        <p class="BMI_value">20</p>
+        <p class="BMI_label">Normal Weight!</p>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
